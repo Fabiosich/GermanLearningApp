@@ -1,0 +1,13 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
+            "default": true
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "/Library/Java/javafx-sdk-21.0.2"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

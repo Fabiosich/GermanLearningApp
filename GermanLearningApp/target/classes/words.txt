@@ -1,0 +1,11 @@
+Glatt,Escorregadio
+Bitte,Por favor
+Danke,Obrigado
+Schnell,Rapido
+Hallo,Ola
+Eis,Gelo
+Schnee,Neve
+Guten tag,Bom dia
+Blatt,Folha
+Computer,Computador
+Brille,Oculos
