@@ -1,11 +1,77 @@
-Glatt,Escorregadio
-Bitte,Por favor
-Danke,Obrigado
-Schnell,Rapido
-Hallo,Ola
-Eis,Gelo
-Schnee,Neve
-Guten tag,Bom dia
-Blatt,Folha
-Computer,Computador
 Brille,Oculos
+Frage,Pergunta
+Eis,Gelo
+Faul,Preguiçoso
+Bitte,Por favor
+Blatt,Folha
+Hallo,Ola
+Schnell,Rapido
+Computer,Computador
+Glatt,Escorregadio
+Guten tag,Bom dia
+Schnee,Neve
+Danke,Obrigado
+Aussage,Afirmação
+Spreche,Falo
+Buchstabieren,Soletrar
+Machen,Fazer
+Hungrig,Esfomeado
+Schach,Xadres
+Spiele,Jogo
+Eltern,Parentes
+Deinstag,Terça-feira
+Samstag,Sabado
+Gemeinsam,Junto
+die Maus,O rato
+der Bleistift,o Lapis
+das Handy,o telemovel
+der Ausweis,o cartão
+der Kugelschreiber,a caneta
+die Briefmarke,o selo
+Tagebuch,Caderno
+Drucker,Impressora
+Schlussel,Chave
+blau,azul
+rot,vermelho
+schwarz,preto
+braun,castanho
+weib,branco
+gelb,amarelo
+grau,cinzento
+Farbe,Cor
+richtig,verdade
+falsch,falso
+Spielen Sie gern Fussball?,Gosta de jogar futebol?
+Joggen Sie garn?,Gosta de correr?
+Wanden Sie gern?,Gosta de caminhar?
+Fahrrad,Bicicleta
+Whochenende,Fim de semana
+am Morgen,De manhã
+am Vormittag,manhã
+am Mittag,Meio dia
+am Nachmittag,tarde
+am abend,noite
+in der nacht,noite
+joggt,corrida
+kochen,cozinhar
+lesen,ler
+der Geburstag,o aniversário
+die Geburtstagstorte,o bolo de anivarsário
+das Essen,a comida
+die Musik,a musica
+das Getränk,a bebida
+Wörter,Palavras
+passen,ajustar
+Einladung,Convite
+Suchen,Procurar
+Wochentage,Dias da semana
+Montag,Segunda feira
+Deinstag,Terça feira
+Mittwoch,Terça feira
+Donnerstag,Quarta feira
+Freitag,Quinta feira
+Samstag,Sabado
+Sonntag,Domingo
+Woche,Semana
+Hast du Zeit?,Tu tens tempo?
+normalerweise,normalmente
