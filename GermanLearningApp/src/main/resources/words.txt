@@ -75,3 +75,4 @@ Sonntag,Domingo
 Woche,Semana
 Hast du Zeit?,Tu tens tempo?
 normalerweise,normalmente
+tecla, Schlüssel
