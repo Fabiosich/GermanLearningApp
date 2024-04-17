@@ -4,11 +4,19 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import javafx.scene.control.ButtonType;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+
 
 import java.io.*;
 import java.util.ArrayList;
@@ -36,7 +44,7 @@ public class GermanTranslatorAppFX extends Application {
         primaryStage.setTitle("German Translator");
 
         // Load words from the text file
-        loadWordsFromFile("words.txt");
+        loadWordsFromFile("src/main/resources/words.txt");
 
         // Initial layout with Start Challenge and Insert Word buttons
         createInitialLayout();
@@ -48,10 +56,12 @@ public class GermanTranslatorAppFX extends Application {
         GridPane initialGrid = new GridPane();
         initialGrid.setHgap(10);
         initialGrid.setVgap(10);
-        initialGrid.setPadding(new Insets(20, 20, 20, 20));
+        initialGrid.setPadding(new Insets(10, 10, 10, 10));
 
         Button startChallengeButton = new Button("Start Challenge");
         Button insertWordButton = new Button("Insert Word");
+        Button editDatabaseButton = new Button("Edit Database"); // New button for editing the database
+        Button closeApp = new Button("Close");
 
         // Event handler for the "Start Challenge" button
         startChallengeButton.setOnAction(e -> startChallenge());
@@ -59,19 +69,93 @@ public class GermanTranslatorAppFX extends Application {
         // Event handler for the "Insert Word" button
         insertWordButton.setOnAction(e -> insertWord());
 
+        // Event handler for the "Edit Database" button
+        editDatabaseButton.setOnAction(e -> editDatabase());
+
+        // Envent handler for the "Close" button
+        closeApp.setOnAction(e -> closeApp());
+
         // Load the image
-        Image image = new Image("images/27101.jpg");
+        Image image = new Image("27101.jpg");
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(100); // Set the width of the image
         imageView.setFitHeight(100); // Set the height of the image
 
         initialGrid.add(startChallengeButton, 0, 0);
         initialGrid.add(insertWordButton, 0, 1);
+        initialGrid.add(editDatabaseButton, 0, 2); // Add the "Edit Database" button
+        initialGrid.add(closeApp, 0, 2);
         initialGrid.add(imageView, 1, 0, 1, 2); // Add the image to the right side
 
-        Scene scene = new Scene(initialGrid, 500, 300); // Adjust the scene width if needed
+        GridPane.setMargin(startChallengeButton, new Insets(0, 0, 0, 0));
+        GridPane.setMargin(insertWordButton, new Insets(0, 0, 0, 0));
+        GridPane.setMargin(editDatabaseButton, new Insets(0, 0, 0, 0)); // Set margin for the "Edit Database" button
+        GridPane.setMargin(closeApp, new Insets(0, 0, 0, 0));
+
+        Button showAllWordsButton = new Button("Show All Words");
+
+        // Event handler for the "Show All Words" button
+        showAllWordsButton.setOnAction(e -> showAllWords());
+
+        initialGrid.add(showAllWordsButton, 0, 3); // Add the "Show All Words" button
+
+        GridPane.setMargin(showAllWordsButton, new Insets(0, 0, 0, 0)); // Configure the "Show All Words" button to align to the left
+
+
+
+        Scene scene = new Scene(initialGrid, 350, 250);
         primaryStage.setScene(scene);
     }
+
+    private void editDatabase() {
+        // Create a TableView to display the database elements
+        TableView<WordPair> tableView = new TableView<>();
+        tableView.setEditable(true);
+
+        // Define columns for German word and Portuguese translation
+        TableColumn<WordPair, String> germanWordColumn = new TableColumn<>("German Word");
+        germanWordColumn.setCellValueFactory(new PropertyValueFactory<>("germanWord"));
+        germanWordColumn.setPrefWidth(150);
+        germanWordColumn.setCellFactory(TextFieldTableCell.forTableColumn()); // Allow cell editing
+
+        TableColumn<WordPair, String> portugueseTranslationColumn = new TableColumn<>("Portuguese Translation");
+        portugueseTranslationColumn.setCellValueFactory(new PropertyValueFactory<>("portugueseTranslation"));
+        portugueseTranslationColumn.setPrefWidth(200);
+        portugueseTranslationColumn.setCellFactory(TextFieldTableCell.forTableColumn()); // Allow cell editing
+
+        // Add columns to the TableView
+        tableView.getColumns().addAll(germanWordColumn, portugueseTranslationColumn);
+
+        // Load data into the TableView
+        ObservableList<WordPair> data = FXCollections.observableArrayList(wordPairs);
+        tableView.setItems(data);
+
+        // Enable cell editing events
+        tableView.setEditable(true);
+        germanWordColumn.setOnEditCommit(event -> {
+            WordPair wordPair = event.getRowValue();
+            wordPair.setGermanWord(event.getNewValue());
+        });
+        portugueseTranslationColumn.setOnEditCommit(event -> {
+            WordPair wordPair = event.getRowValue();
+            wordPair.setPortugueseTranslation(event.getNewValue());
+        });
+
+        // Create a scene for editing the database
+        Scene editDatabaseScene = new Scene(tableView, 600, 400); // Increase the size of the scene
+
+        // Set the scene to the primary stage
+        primaryStage.setScene(editDatabaseScene);
+    }
+
+
+
+    private void closeApp() {
+        // Save the words to the text file before closing
+        saveWordsToFile("/Applications/GermanLearning/GermanLearningApp/src/main/resources/words.txt");
+        primaryStage.close();
+    }
+
     private void startChallenge() {
         // Reset counts, failed words, and shuffle the list for a new random order
         correctCount = 0;
@@ -255,6 +339,7 @@ public class GermanTranslatorAppFX extends Application {
         insertWordGrid.add(newTranslationField, 1, 1);
         insertWordGrid.add(insertButton, 0, 2);
 
+
         Scene insertWordScene = new Scene(insertWordGrid, 400, 300);
         primaryStage.setScene(insertWordScene);
     }
@@ -316,9 +401,9 @@ public class GermanTranslatorAppFX extends Application {
         }
     }
 
-    private static class WordPair {
-        private final String germanWord;
-        private final String portugueseTranslation;
+    public class WordPair {
+        private String germanWord;
+        private String portugueseTranslation;
 
         public WordPair(String germanWord, String portugueseTranslation) {
             this.germanWord = germanWord;
@@ -329,8 +414,36 @@ public class GermanTranslatorAppFX extends Application {
             return germanWord;
         }
 
+        public void setGermanWord(String germanWord) {
+            this.germanWord = germanWord;
+        }
+
         public String getPortugueseTranslation() {
             return portugueseTranslation;
         }
+
+        public void setPortugueseTranslation(String portugueseTranslation) {
+            this.portugueseTranslation = portugueseTranslation;
+        }
+    }
+
+
+    private void showAllWords() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("All Words");
+        alert.setHeaderText("List of All Words:");
+
+        StringBuilder wordsList = new StringBuilder();
+
+        for (WordPair wordPair : wordPairs) {
+            wordsList.append(wordPair.getGermanWord())
+                    .append(" -> ")
+                    .append(wordPair.getPortugueseTranslation())
+                    .append("\n");
+        }
+
+        alert.setContentText(wordsList.toString());
+
+        alert.showAndWait();
     }
 }
