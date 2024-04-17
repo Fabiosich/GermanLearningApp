@@ -53,7 +53,7 @@ The German Translator Application is a JavaFX desktop application designed to he
 
 ## Author
 
-[Your Name]
+Fábio Ferreira
 
 ## License
 
