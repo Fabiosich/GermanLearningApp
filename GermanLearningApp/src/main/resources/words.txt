@@ -102,4 +102,5 @@ Schade,que pena
 der Kugelschreiber,a caneta
 am Vormittag,de Manhã
 Ausfart,Saída
-Gehen,Ir
+Gehen,Ir  
+Sehen,Ver
