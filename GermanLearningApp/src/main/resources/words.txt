@@ -100,4 +100,6 @@ Bitte,Por favor
 Wanden Sie gern?,Gosta de caminhar?
 Schade,que pena
 der Kugelschreiber,a caneta
-am Vormittag,manhã
+am Vormittag,de Manhã
+Ausfart,Saída
+Gehen,Ir
