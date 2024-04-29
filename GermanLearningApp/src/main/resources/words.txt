@@ -104,3 +104,4 @@ am Vormittag,de Manhã
 Ausfart,Saída
 Gehen,Ir  
 Sehen,Ver
+Zurück,de volta
