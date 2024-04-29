@@ -54,13 +54,14 @@ public class GermanTranslatorAppFX extends Application {
 
     private void createInitialLayout() {
         GridPane initialGrid = new GridPane();
-        initialGrid.setHgap(10);
-        initialGrid.setVgap(10);
+        initialGrid.setHgap(20);
+        initialGrid.setVgap(20);
         initialGrid.setPadding(new Insets(10, 10, 10, 10));
 
         Button startChallengeButton = new Button("Start Challenge");
         Button insertWordButton = new Button("Insert Word");
         Button editDatabaseButton = new Button("Edit Database"); // New button for editing the database
+        Button showAllWordsButton = new Button("Show All Words");
         Button closeApp = new Button("Close");
 
         // Event handler for the "Start Challenge" button
@@ -75,35 +76,41 @@ public class GermanTranslatorAppFX extends Application {
         // Envent handler for the "Close" button
         closeApp.setOnAction(e -> closeApp());
 
+        // Event handler for the "Show All Words" button
+        showAllWordsButton.setOnAction(e -> showAllWords());
+
         // Load the image
         Image image = new Image("27101.jpg");
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(100); // Set the width of the image
         imageView.setFitHeight(100); // Set the height of the image
 
+        // Add buttons to the initialGrid
         initialGrid.add(startChallengeButton, 0, 0);
         initialGrid.add(insertWordButton, 0, 1);
-        initialGrid.add(editDatabaseButton, 0, 2); // Add the "Edit Database" button
-        initialGrid.add(closeApp, 0, 2);
-        initialGrid.add(imageView, 1, 0, 1, 2); // Add the image to the right side
-
-        GridPane.setMargin(startChallengeButton, new Insets(0, 0, 0, 0));
-        GridPane.setMargin(insertWordButton, new Insets(0, 0, 0, 0));
-        GridPane.setMargin(editDatabaseButton, new Insets(0, 0, 0, 0)); // Set margin for the "Edit Database" button
-        GridPane.setMargin(closeApp, new Insets(0, 0, 0, 0));
-
-        Button showAllWordsButton = new Button("Show All Words");
-
-        // Event handler for the "Show All Words" button
-        showAllWordsButton.setOnAction(e -> showAllWords());
-
-        initialGrid.add(showAllWordsButton, 0, 3); // Add the "Show All Words" button
-
-        GridPane.setMargin(showAllWordsButton, new Insets(0, 0, 0, 0)); // Configure the "Show All Words" button to align to the left
+        initialGrid.add(editDatabaseButton, 0, 2);
+        initialGrid.add(closeApp, 0, 3);
+        initialGrid.add(showAllWordsButton, 0, 4);
+        initialGrid.add(imageView, 1, 0, 1, 5); // Place the image to the right of the buttons
 
 
+        // Set padding for buttons
+        Insets buttonPadding = new Insets(10); // Adjust the value as needed
+        startChallengeButton.setPadding(buttonPadding);
+        insertWordButton.setPadding(buttonPadding);
+        editDatabaseButton.setPadding(buttonPadding);
+        closeApp.setPadding(buttonPadding);
+        showAllWordsButton.setPadding(buttonPadding);
 
-        Scene scene = new Scene(initialGrid, 350, 250);
+        // Set margins to space the buttons evenly
+        Insets buttonMargin = new Insets(5); // Adjust the value as needed
+        GridPane.setMargin(startChallengeButton, buttonMargin);
+        GridPane.setMargin(insertWordButton, buttonMargin);
+        GridPane.setMargin(editDatabaseButton, buttonMargin);
+        GridPane.setMargin(closeApp, buttonMargin);
+        GridPane.setMargin(showAllWordsButton, buttonMargin);
+
+        Scene scene = new Scene(initialGrid, 350, 350);
         primaryStage.setScene(scene);
     }
 
