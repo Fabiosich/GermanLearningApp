@@ -85,13 +85,19 @@ public class GermanTranslatorAppFX extends Application {
         imageView.setFitWidth(100); // Set the width of the image
         imageView.setFitHeight(100); // Set the height of the image
 
+        Image image1 = new Image("Flag_of_Portugal.svg.png");
+        ImageView imageView1 = new ImageView(image1);
+        imageView1.setFitHeight(100);
+        imageView1.setFitWidth(100);
+
         // Add buttons to the initialGrid
         initialGrid.add(startChallengeButton, 0, 0);
         initialGrid.add(insertWordButton, 0, 1);
         initialGrid.add(editDatabaseButton, 0, 2);
         initialGrid.add(closeApp, 0, 3);
         initialGrid.add(showAllWordsButton, 0, 4);
-        initialGrid.add(imageView, 1, 0, 1, 5); // Place the image to the right of the buttons
+        initialGrid.add(imageView, 1, 0, 1, 3); // Place the image to the right of the buttons
+        initialGrid.add(imageView1,1,0,1,8);
 
 
         // Set padding for buttons
