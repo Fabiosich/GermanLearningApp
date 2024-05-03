@@ -87,3 +87,15 @@ Hast du Zeit?, Você tem tempo?
 Suchen, Procurar
 Bringen, Trazer
 Wörter, Palavras
+Zwiebel,Cebola
+Knoblauch,Alho
+Brot,Pão
+Tun,Faca
+Ernten,Colher
+Gabel,Garfo
+Glas,Copo
+Trinken,Bebida
+Tisch,Mesa
+Tischdecke,Toalha de mesa
+Tafelwein,Vinho de mesa
+Stuhl,Cadeira
