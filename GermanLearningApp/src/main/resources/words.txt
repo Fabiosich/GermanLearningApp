@@ -1,107 +1,89 @@
-Urh,Relogio
-Gemeinsam,Junto
-der Geburstag,o aniversário
-Fahrrad,Bicicleta
-die Geburtstagstorte,o bolo de anivarsário
-Stad,Cidade
-der Tee,o Chá
-Mittwoch,Terça feira
-richtig,verdade
-Samstag,Sabado
-Whochenende,Fim de semana
-Tasche,Bolsa
-Hauptseise, Prato principal
-Deinstag,Terça-feira
-am Mittag,Meio dia
-Rotwinde,Vinho tinto
-Einladung,Convite
-Schnell,Rapido
-Frage,Pergunta
-Guten tag,Bom dia
-Bestellen,Pedir
-der Ausweis,o cartão
-Spreche,Falo
-Regeln,Regras
-Kirche,Igreja
-die Maus,O rato
-Schnee,Neve
-Glatt,Escorregadio
-Schach,Xadres
-lesen,ler
-Farbe,Cor
-grau,cinzento
-Woche,Semana
-Wohnzimmer,Sala de estar
-falsch,falso
-Donnerstag,Quarta feira
-Rucksack,Mochila
-Montag,Segunda feira
-das Handy,o telemovel
-Eltern,Parentes
-die Briefmarke,o selo
-Blatt,Folha
-schwarz,preto
-am Nachmittag,tarde
-weib,branco
-Computer,Computador
-das Essen,a comida
-am abend,noite
-Deinstag,Terça feira
-Spiele,Jogo
-Apfelsaft,Sumo de maça
-Suchen,Procurar
-Joggen Sie garn?,Gosta de correr?
-lange,duração
-Faul,Preguiçoso
-Tagebuch,Caderno
-Wochentage,Dias da semana
-blau,azul
-Brille,Oculos
-Vergleichen,Comparar
-Spielen Sie gern Fussball?,Gosta de jogar futebol?
-Wiebwien,Vinho branco
-Hallo,Ola
-gelb,amarelo
-am Morgen,De manhã
-Drucker,Impressora
-rot,vermelho
-Buchstabieren,Soletrar
-kochen,cozinhar
-normalerweise,normalmente
-braun,castanho
-Bahnhof,Estação ferroviaria
-Wann denn?,Então quando?
-das Getränk,a bebida
-Limonade,Limonada
-Freitag,Quinta feira
-Eis,Gelo
-joggt,corrida
-Hungrig,Esfomeado
-der Bleistift,o Lapis
-Kino,Cinema
-Zustimmen,Concordo
-Aussage,Afirmação
-Hast du Zeit?,Tu tens tempo?
-Wörter,Palavras
-Flughafen,Aeroporto
-Vorspeise,Entradas
-Bild,Foto
-Machen,Fazer
-Danke,Obrigado
-Samstag,Sabado
-Schlussel,Chave
-die Musik,a musica
-Sonntag,Domingo
-Mineralwasser,Agua mineral
-Nachspeise,Sobremesa
-in der nacht,noite
-das Spiel,o jogo
-Bitte,Por favor
-Wanden Sie gern?,Gosta de caminhar?
-Schade,que pena
-der Kugelschreiber,a caneta
-am Vormittag,de Manhã
-Ausfart,Saída
-Gehen,Ir  
-Sehen,Ver
-Zurück,de volta
+Urh, Relógio
+Wochenende, Fim de semana
+Montag, Segunda-feira
+Dienstag, Terça-feira
+Mittwoch, Quarta-feira
+Donnerstag, Quinta-feira
+Freitag, Sexta-feira
+Samstag, Sábado
+Sonntag, Domingo
+Morgen, De manhã
+Mittag, Ao meio dia
+Nachmittag, À tarde
+Abend, À noite
+Nacht, À noite
+Heute, Hoje
+Dann, Então
+Wieder, Novamente
+Jetzt, Agora
+normalerweise, Normalmente
+Wann denn?, Quando?
+Tee, Chá
+Rotwein, Vinho tinto
+Apfelsaft, Suco de maçã
+Mineralwasser, Água mineral
+Limonade, Limonada
+Getränk, Bebida
+Essen, Comida
+Hauptgericht, Prato principal
+Vorspeise, Entrada
+Nachspeise, Sobremesa
+Eis, Gelo
+Spiele, Jogos
+Wandern, Caminhar
+Joggen, Correr
+Fußball, Futebol
+Spazieren gehen, Dar um passeio
+Kino, Cinema
+Vergleichen, Comparar
+Bestellen, Pedir
+Schlafen, Dormir
+Stadt, Cidade
+Bahnhof, Estação ferroviária
+Flughafen, Aeroporto
+Wohnzimmer, Sala de estar
+Büro, Escritório
+Zimmer, Quarto
+Kirche, Igreja
+Bleistift, Lápis
+Maus, Rato
+Briefmarke, Selo
+Ausweis, Cartão de identificação
+Rucksack, Mochila
+Tasche, Bolsa
+Brille, Óculos
+Schlüssel, Chave
+Kugelschreiber, Caneta esferográfica
+Bild, Foto
+Computer, Computador
+Drucker, Impressora
+Handy, Celular
+Arzt, Médico
+Zahnarzt, Dentista
+Zahnschmerzen, Dor de dente
+Halsschmerzen, Dor de garganta
+Augenschmerzen, Dor nos olhos
+Bauchschmerzen, Dor de barriga
+Rückenschmerzen, Dor nas costas
+tut weh, Dói
+Farbe, Cor
+grau, Cinza
+blau, Azul
+schwarz, Preto
+gelb, Amarelo
+weiß, Branco
+rot, Vermelho
+braun, Marrom
+Gemeinsam, Juntos
+Einladung, Convite
+Bitte, Por favor
+Danke, Obrigado
+Hallo, Oi
+Guten Tag, Bom dia
+Aber, Mas
+Zustimmen, Concordar
+Aussage, Afirmação
+Hast du Zeit?, Você tem tempo?
+Suchen, Procurar
+Bringen, Trazer
+Wörter, Palavras
