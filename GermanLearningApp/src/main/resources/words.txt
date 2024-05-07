@@ -99,3 +99,4 @@ Tisch,Mesa
 Tischdecke,Toalha de mesa
 Tafelwein,Vinho de mesa
 Stuhl,Cadeira
+Seite,Página
