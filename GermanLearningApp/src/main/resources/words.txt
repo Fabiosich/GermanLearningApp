@@ -100,3 +100,8 @@ Tischdecke,Toalha de mesa
 Tafelwein,Vinho de mesa
 Stuhl,Cadeira
 Seite,Página
+Manchmal,Ás vezes
+Ganz einfach,Muito fácil
+Da vorne,Lá na frente
+Nehmen Sie,Pegar
+Umsteigen,Transferir
