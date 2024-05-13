@@ -99,9 +99,22 @@ Tisch,Mesa
 Tischdecke,Toalha de mesa
 Tafelwein,Vinho de mesa
 Stuhl,Cadeira
-Seite,Página
 Manchmal,Ás vezes
 Ganz einfach,Muito fácil
 Da vorne,Lá na frente
 Nehmen Sie,Pegar
 Umsteigen,Transferir
+Möchten,Querer
+Werkstatt,Mecânico
+Spielplatz,Parque infantil
+Vater,Pai
+Mutter,Mãe
+Firmefeier,Festa da empresa
+Abholen,Buscar
+Das Abendessen,O jantar
+Lustig,Divertido
+Lecker,Delicioso
+Lieblingessen,Comida favorita
+Ein steigen,Entrem
+Aus steigen,Saiam
+Der Bus,O autocarro
