@@ -118,3 +118,22 @@ Lieblingessen,Comida favorita
 Ein steigen,Entrem
 Aus steigen,Saiam
 Der Bus,O autocarro
+Warten,Esperar
+Leute,Pessoas
+Kindheit,Infânica
+Geheirated,Casado
+Hat gekoch,Cozinhou
+Hat aufgeraumt,Arrumou
+Hat getraumt,Tem sonhado
+Hat gehort,Ouviu
+Hat gelesen,Leu
+Hat getrunken,Tem bebido
+Ist eingeschlafen,Adormeceu
+Hat ferngesehen,Tem visto televisão
+Ist gefahren,Conduziu
+ist gegangen,Andado
+Beispiel,Exemplo
+Wann war die erst Mondlandung?,Quando foi a primeira aterragem na lua?
+wann war die erst?Quando foi o primeiro?
+
+
