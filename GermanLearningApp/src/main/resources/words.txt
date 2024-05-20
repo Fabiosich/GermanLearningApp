@@ -136,4 +136,4 @@ Beispiel,Exemplo
 Wann war die erst Mondlandung?,Quando foi a primeira aterragem na lua?
 wann war die erst?Quando foi o primeiro?
 Toll,Óptimo
-
+Lesen,Ler
