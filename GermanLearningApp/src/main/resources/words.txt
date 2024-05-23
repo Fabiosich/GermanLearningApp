@@ -137,3 +137,10 @@ Wann war die erst Mondlandung?,Quando foi a primeira aterragem na lua?
 wann war die erst?Quando foi o primeiro?
 Toll,Óptimo
 Lesen,Ler
+Haben,Ter  
+Fahren,Conduzir
+Werfen,Atirar
+Für,Para
+Schießen,Atirar
+Aufstocken,Construir
+Zerstören,Destruir
