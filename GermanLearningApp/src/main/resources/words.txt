@@ -144,3 +144,4 @@ Für,Para
 Schießen,Atirar
 Aufstocken,Construir
 Zerstören,Destruir
+Saco,Tasche
