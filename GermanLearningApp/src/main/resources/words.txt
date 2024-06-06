@@ -146,33 +146,34 @@ Aufstocken,Construir
 Zerstören,Destruir
 Saco,Tasche
 Natürlich, hier ist die Liste mit Großbuchstaben am Anfang jeder Wortes:
-Das Hemd, A Camisa  
-Das T-Shirt, A Camiseta  
-Die Bluse, A Blusa  
-Der Pullover, O Suéter  
-Die Jacke, A Jaqueta  
-Der Mantel, O Casaco  
-Die Hose, A Calça  
-Die Jeans, O Jeans  
-Die Shorts, O Shorts  
-Der Rock, A Saia  
-Das Kleid, O Vestido  
-Der Anzug, O Terno  
-Die Krawatte, A Gravata  
-Der Schal, O Cachecol  
-Die Handschuhe, As Luvas  
-Der Hut, O Chapéu  
-Die Mütze, O Boné  
-Der Gürtel, O Cinto  
-Die Socken, As Meias  
-Die Schuhe, Os Sapatos  
-Die Turnschuhe, Os Tênis  
-Die Stiefel, As Botas  
-Die Sandalen, As Sandálias  
-Die Unterwäsche, A Roupa Íntima  
-Der BH (Büstenhalter), O Sutiã  
-Die Unterhose, A Calcinha (ou Cueca, Dependendo Do Contexto)  
-Die Boxershorts, A Cueca Boxer  
-Der Schlafanzug, O Pijama  
-Der Bademantel, O Roupão  
-Der Badeanzug, O Maiô  
+Natürlich, hier ist die Liste ohne den zusätzlichen Leerraum nach dem Komma:
+Der Anzug,O Terno  
+Der Badeanzug,O Maiô  
+Der Bademantel,O Roupão  
+Die Bluse,A Blusa  
+Der BH (Büstenhalter),O Sutiã  
+Die Boxershorts,A Cueca Boxer  
+Das Hemd,A Camisa  
+Die Handschuhe,As Luvas  
+Der Hut,O Chapéu  
+Die Hose,A Calça  
+Die Jacke,A Jaqueta  
+Die Jeans,O Jeans  
+Die Krawatte,A Gravata  
+Das Kleid,O Vestido  
+Der Mantel,O Casaco  
+Die Mütze,O Boné  
+Der Pullover,O Suéter  
+Der Rock,A Saia  
+Der Schal,O Cachecol  
+Der Schlafanzug,O Pijama  
+Die Schuhe,Os Sapatos  
+Die Shorts,O Shorts  
+Die Socken,As Meias  
+Die Sandalen,As Sandálias  
+Die Stiefel,As Botas  
+Das T-Shirt,A Camiseta  
+Die Turnschuhe,Os Tênis  
+Die Unterhose,A Calcinha (ou Dependendo Do Contexto,Cueca)  
+Die Unterwäsche,A Roupa Íntima 
+Farbe,Cor
